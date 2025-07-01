@@ -15,7 +15,7 @@ App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=FIKA Headless
-App.CommandLineArgs=-File C:\AMPDatastore\Instances\FikaHeadless01\fika-headless\serverfiles
+App.CommandLineArgs=-WorkingDirectory "C:\AMPDatastore\Instances\FikaHeadless01\fika-headless\serverfiles" -ArgumentList "-token=6863e9a37db72524e0002262", "-config={'BackendUrl':'https://127.0.0.1:6969','Version':'live'}", "-batchmode", "-nographics", "--enable-console true"
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0} "{1}"
 App.CommandLineParameterDelimiter= 
@@ -76,7 +76,7 @@ App.RootDir=./fika-headless/
 Meta.DisplayImageSource=url:
 App.BaseDirectory=./fika-headless/serverfiles/
 App.WorkingDir=serverfiles
-App.ExecutableWin=serverfiles\Powershell.exe
+App.ExecutableWin=serverfiles\EscapeFromTarkov.exe
 App.ExecutableLinux=serverfiles/
 App.LinuxCommandLineArgs=
 App.Ports=@IncludeJson[fika-headlessports.json]
