@@ -1,0 +1,9 @@
+[
+    {
+        "Protocol": "Both",
+        "Port": "6969",
+        "Name": "6969",
+        "Description": "Port used for main game traffic",
+        "Ref": "6969"
+    }
+]
